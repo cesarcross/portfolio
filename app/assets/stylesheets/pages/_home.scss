@@ -1,1 +1,179 @@
 // Specific CSS for your home-page
+
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700px;
+  background-color: rgb(238, 223, 163);
+}
+
+body h2 {
+  font-size: 28px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li:hover a{
+  color: white;
+}
+
+img {
+  height: 150px;
+  // width: 150px;
+  object-fit: cover;
+  // border-radius: 50%;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  display: inline;
+  font-size: 24px;
+}
+
+ul a {
+  color: #e3b04b;
+  font-size: 48px;
+  padding: 2px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700px;
+  font-size: 32px;
+}
+
+h1 p {
+  font-size: 18px;
+  // color: #8186d5;
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 a {
+  font-size: 24px;
+  // color: #8186d5;
+}
+
+.container{
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.card {
+  background: #DBBD7F;
+  padding: 10px;
+  color: #1D3E5D;
+  // margin: 2px;
+  // border-radius: 3px;
+  box-shadow: 0 5px 5px 0 lightgrey;
+  margin-bottom: 10px;
+}
+
+.card-portfolio {
+  background: #1D3E5D;
+  padding: 10px;
+  color: #e3b04b;
+  // margin: 2px;
+  // border-radius: 3px;
+  box-shadow: 0 5px 5px 0 lightgrey;
+  margin-bottom: 10px;
+}
+
+.card-project {
+  text-align: center;
+  background-color: white;
+  border: solid, white;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  color: #1D3E5D;
+}
+
+
+.card-favorites {
+  background: white;
+  padding: 10px;
+  color: #1D3E5D;
+  // margin: 2px;
+  // border-radius: 3px;
+  box-shadow: 0 5px 5px 0 lightgrey;
+  margin-bottom: 10px;
+}
+
+.favorites-category {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.separator {
+  height: 1px;
+  width: 16rem;
+  background-color: #1D3E5D;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  margin: auto;
+}
+
+.card-social {
+  background: #1D3E5D;
+  padding: 30px;
+  color: #e3b04b;
+  // margin: 2px;
+  // border-radius: 3px;
+  box-shadow: 0 5px 5px 0 lightgrey;
+}
+
+.btn-gradient {
+  color: white;
+  padding: 8px 10px;
+  border-radius: 4px;
+  // font-weight: bold;
+  background: linear-gradient(#167FFB, #1D3E5D);
+  transition: background 0.3s ease;
+  // border: 1px solid #0F60C4;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(#147EFF, #0F67DA);
+  color: white;
+}
+
+button {
+  background-color: #e3b04b;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+}
+
+button a {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}

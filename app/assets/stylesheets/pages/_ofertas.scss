@@ -1,0 +1,118 @@
+.whats {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;  
+}
+
+.card-d {
+  background-color: #34c29e;
+  width: 40%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.38);
+  display: flex;
+	margin: 20px 10px;
+}
+
+.card-d:hover {
+  background-color: #beebe9;
+}
+
+.product-left {
+  background-color: purple;
+  margin-right: 40px;
+  border-radius: 5px;
+}
+
+.product-img {
+	padding: 10px;
+	margin-right: 50px;
+}
+
+.product-title {
+  color: white;
+  font-size: 24px;
+}
+
+.product-text {
+
+}
+
+.product-btn {
+  background-color: green;
+}
+
+// CSS DOS DISPLAYS
+
+.acqio-acqua {
+	display: flex;
+}
+
+@media (max-width: 900px) {
+	.acqio-acqua {
+		flex-direction: column;
+	}
+}
+
+.beauty-prestige {
+	display: flex;
+}
+
+.jahu-odonto {
+	display: flex;
+}
+
+// Abaixo o CSS do botao. Depois separar num componente
+
+.hot-container p { margin-top: 10px; }
+a { text-decoration: none; margin: 0 10px; }
+
+.hot-container {
+	min-height: 100px;
+	margin-top: 100px;
+	width: 100%;
+	text-align: center;
+}
+
+a.btn {
+	display: inline-block;
+	color: #666;
+	background-color: #eee;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-bottom-width: 3px;
+}
+
+	a.btn:hover {
+		background-color: #e3e3e3;
+		border-color: rgba(0,0,0,0.5);
+	}
+	
+	a.btn:active {
+		background-color: #CCC;
+		border-color: rgba(0,0,0,0.9);
+	}
+
+/* blue button */
+
+a.btn.btn-blue {
+	background-color: #699DB6;
+	border-color: rgba(0,0,0,0.3);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+	color: #FFF;
+}
+
+	a.btn.btn-blue:hover {
+		background-color: #4F87A2;
+		border-color: rgba(0,0,0,0.5);
+	}
+	
+	a.btn.btn-blue:active {
+		background-color: #3C677B;
+		border-color: rgba(0,0,0,0.9);
+	}

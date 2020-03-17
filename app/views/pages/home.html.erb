@@ -1,2 +1,94 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<html>
+<head>
+  <title>My profile</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Hello, I'm Cesar <i class="fas fa-user-astronaut"></i><h1/>
+        <img src="../assets/images/profile.jpg" alt="" width="150px">
+        <p>I'm a business manager and full-stack developer with an entrepreneur mindset.</p>
+        <!-- <p>I'm a business manager and full-stack developer with an entrepreneur mindset 💻</p> -->
+        <p>Always open for sharing ideas and opportunities related to: Artificial intelligence, cryptocurrencies, investments, green technologies, gaming, environment and veganism.</p>
+      </div>
+
+      <section class="portfolio">
+
+        <div class="card-portfolio">
+          <h1>Check my latest projects<h1/>
+            <h2>DaleShip</h2>
+            <div class="card-project" style="width: 16rem;">
+              <%= link_to image_tag('daleship.png'), "http://www.daleship.com/",  :target => "_blank" %>
+              <div class="card-body">
+                <p class="card-text">DaleShip is a smart system to calculate freights and making easier the trading good between Brazil and China.</p>
+                <%= link_to "Check now", "http://www.daleship.com/", class: "btn btn-gradient" %>
+              </div>
+            </div>
+            <h2>Vegan Marketplace</h2>
+            <div class="card-project" style="width: 16rem;">
+              <%= link_to image_tag('vegmktplace.svg'), "http://vegan-marketplace.herokuapp.com/",  :target => "_blank" %>
+              <div class="card-body">
+                <p class="card-text">A platform where chefs can create events and people can book for amazing vegan experiences. Only desktop for now.</p>
+                <%= link_to "Check now", "http://vegan-marketplace.herokuapp.com/", class: "btn btn-gradient" %>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="favorites">
+          <div class="card-favorites">
+            <h1>And some of my favorite stuff<h1/>
+              <div class="favorites-category">
+                <h2>Games</h2>
+                <%= link_to image_tag('game.png') %>
+                <p>Super Mario Galaxy</p>
+                <p>Okami</p>
+                <p>Resident Evil 4</p>
+                <p>Metro Exodus</p>
+                <p>Soma</p>
+              </div>
+              <div class="separator"></div>
+              <div class="favorites-category">
+                <h2>Books</h2>
+                <%= link_to image_tag('books.png') %>
+                <p>4 Hour Work Week - Tim Ferriss</p>
+                <p>How to Stop Worrying and Start Living - Dale Carnegie</p>
+                <p>The Knight in Rusty Armor - Robert Fisher</p>
+                <p>Good Luck - Alex Rovira, Fernando Trias</p>
+                <p>Brave New World - Aldous Huxley</p>
+              </div>
+              <div class="separator"></div>
+              <div class="favorites-category">
+                <h2>Movies</h2>
+                <%= link_to image_tag('movie.jpg') %>
+                <p>Children of Men</p>
+                <p>Interstellar</p>
+                <p>Lord of the Rings</p>
+                <p>Shutter Island</p>
+                <p>Unbreakable</p>
+              </div>
+            </div>
+          </section>
+
+          <div class="card-social">
+            <h2>Get in touch 😎</h2>
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/cesar3cross" target="_blank" class="social-media"><i class="fab fa-facebook-square"></i>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/cesarcorregiari/" target="_blank"><i class="fab fa-linkedin"></i>
+                  </li>
+                  <li>
+                    <a href="https://github.com/cesarcross/" target="_blank"><i class="fab fa-github-square"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </body>
+            </html>
+
