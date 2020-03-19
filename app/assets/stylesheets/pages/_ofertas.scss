@@ -6,53 +6,14 @@ hr {
   margin: 12px 15px;
 }
 
-// body {
-//   background-color: rgba(194, 206, 202, 0.863);
-// }
-
-  #acqio {
-    background-color: #20ABF0;
-    .img-back {
-      background-color: #D4B136;
-      }
-  }
-  #acquazero {
-    // background-color: #3383BA;
-    background-color: #261A42;
-    color: white;
-    .img-back {
-      background-color: white;
-      }
-  }
-  #beautycooler {
-    background-color: #F6CCE7;
-    .img-back {
-      background-color: #B1F4E7;
-      }
-  }
-  #royal {
-    background-color: #D6D6D5;
-    .img-back {
-      background-color: #202752;
-      // background-color: #1C599B;
-      }
-  }
-  #jahu {
-    background-color: #D4B136;
-    .img-back {
-      background-color: #629C82;
-      }
-  }
-
-  #caravan {
-    background-color: #EE4B47;
-    .img-back {
-      background-color: #D4EA2C;
-      }
-  }
+body {
+  // background-color: #f7f7f7;
+  
+}
 
 .card-d {
-  background-color: #34c29e;
+  background-color: #0F4C73;
+  color: white;
   width: 40%;
   border-radius: 5px;
   // box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.38);
@@ -67,11 +28,12 @@ hr {
 }
 
 .card-d:hover {
-  background-color: #beebe9;
+  // background-color: #beebe9;
 }
 
 .product-logo {
-  background-color: purple;
+  // background-color: #202752;
+  background-color: #b21f66;
   margin-right: 15px;
   // border-radius: 5px;
   border-radius: 5px 0 0 5px;
@@ -164,6 +126,50 @@ hr {
     width: 150px;
   }
 }
+
+// @media (max-width: 760px) {
+
+  #acqio {
+    // background-color: #20ABF0;
+    .img-back {
+      background-color: #D4B136;
+      }
+  }
+  #acquazero {
+    // background-color: #3383BA;
+    // background-color: #261A42;
+    color: white;
+    .img-back {
+      background-color: #069DD0;
+      }
+  }
+  #beautycooler {
+    // background-color: #F6CCE7;
+    .img-back {
+      background-color: #ffb0cd;
+      }
+  }
+  #royal {
+    // background-color: #D6D6D5;
+    .img-back {
+      background-color: #D8D7D7;
+      // background-color: #1C599B;
+      }
+  }
+  #jahu {
+    // background-color: #D4B136;
+    .img-back {
+      background-color: #DBBC40;
+      }
+  }
+
+  #caravan {
+    // background-color: #EE4B47;
+    .img-back {
+      background-color: #7DE1C0;
+      }
+  }
+// }
 
 // Abaixo o CSS do botao. Depois separar num componente
 
