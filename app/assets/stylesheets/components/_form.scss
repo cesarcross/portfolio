@@ -1,0 +1,41 @@
+.form-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form {
+  width: 80%;
+  background: #fafafa;
+  padding: 30px;
+  padding-bottom: 60px;
+  margin: 0 auto 30px;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  border: 2px solid #305a72;
+}
+
+.submit_button {
+  -moz-box-shadow: inset 0px 1px 0px 0px #3985b1;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #3985b1;
+  box-shadow: inset 0px 1px 0px 0px #3985b1;
+  background-color: #216288;
+  border: 1px solid #17445e;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial, Helvetica, sans-serif;
+  float: right;
+}
+
+.submit_button:hover {
+  background: linear-gradient(to bottom, #2d77a2 5%, #337da8 100%);
+  background-color: #28739e;
+}
+
+@media (min-width: 701px) {
+  .contact-form {
+    width: 50%;
+  }
+}

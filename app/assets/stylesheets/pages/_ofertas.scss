@@ -8,11 +8,10 @@ hr {
 
 body {
   // background-color: #f7f7f7;
-  
 }
 
 .card-d {
-  background-color: #0F4C73;
+  background-color: #0f4c73;
   color: white;
   width: 40%;
   border-radius: 5px;
@@ -79,11 +78,11 @@ body {
   justify-content: space-around;
 }
 
-.whats {
-  position: fixed;
-  bottom: 15px;
-  right: 15px;
-}
+// .whats {
+//   position: fixed;
+//   bottom: 15px;
+//   right: 15px;
+// }
 
 // “Small Devices” (e.g. tablets) are targeted with @media (min-width: 768px) and (max-width: 991px) { ... }.
 
@@ -129,46 +128,46 @@ body {
 
 // @media (max-width: 760px) {
 
-  #acqio {
-    // background-color: #20ABF0;
-    .img-back {
-      background-color: #D4B136;
-      }
+#acqio {
+  // background-color: #20ABF0;
+  .img-back {
+    background-color: #d4b136;
   }
-  #acquazero {
-    // background-color: #3383BA;
-    // background-color: #261A42;
-    color: white;
-    .img-back {
-      background-color: #069DD0;
-      }
+}
+#acquazero {
+  // background-color: #3383BA;
+  // background-color: #261A42;
+  color: white;
+  .img-back {
+    background-color: #069dd0;
   }
-  #beautycooler {
-    // background-color: #F6CCE7;
-    .img-back {
-      background-color: #ffb0cd;
-      }
+}
+#beautycooler {
+  // background-color: #F6CCE7;
+  .img-back {
+    background-color: #ffb0cd;
   }
-  #royal {
-    // background-color: #D6D6D5;
-    .img-back {
-      background-color: #D8D7D7;
-      // background-color: #1C599B;
-      }
+}
+#royal {
+  // background-color: #D6D6D5;
+  .img-back {
+    background-color: #d8d7d7;
+    // background-color: #1C599B;
   }
-  #jahu {
-    // background-color: #D4B136;
-    .img-back {
-      background-color: #DBBC40;
-      }
+}
+#jahu {
+  // background-color: #D4B136;
+  .img-back {
+    background-color: #dbbc40;
   }
+}
 
-  #caravan {
-    // background-color: #EE4B47;
-    .img-back {
-      background-color: #7DE1C0;
-      }
+#caravan {
+  // background-color: #EE4B47;
+  .img-back {
+    background-color: #7de1c0;
   }
+}
 // }
 
 // Abaixo o CSS do botao. Depois separar num componente
@@ -240,8 +239,10 @@ a.btn.btn-blue:active {
   width: 90%;
   font-weight: bold;
 
-  h2, h4, h5, p {
+  h2,
+  h4,
+  h5,
+  p {
     align-self: center;
   }
 }
-
