@@ -2,7 +2,6 @@
   <h2>Bem Vindo!</h2>
   <h5>Aqui você encontra diversas ofertas exclusivas. Clique em contato para saber mais, ou envie uma mensagem para cesarcorregiari@gmail.com</h5>
 </div>
-
 <div class="acqio-acqua">
   <div class="card-d" id="acqio">
     <div class="product-logo img-back" >
@@ -144,8 +143,17 @@
 <%= link_to "http://api.whatsapp.com/send?1=pt_BR&phone=5511981263581", :target => "_blank", class:"whats" do %>
   <%= image_tag('whatsapp.png') %>
 <% end %>
-
 <div class="anuncio">
   <h2>Parcerias</h2>
   <h4>Gostaria de oferecer um produto ou serviço através da minha rede de contatos? Preencha o formulário abaixo ou envie um email para cesarcorregiari@gmail.com</h4>
 </div>
+<div class="form-section">
+  <%#= simple_form_for @page, html: { class: "contact-form"} do |f| %>
+    <%= simple_form_for @page do |f| %>
+      <%= f.input :name, label: false, placeholder: "Nome" %>
+      <%= f.input :email, label: false, placeholder: "Email" %>
+      <%#= f.input :text, as: :text, input_html: {rows: 4, cols: 10}, label: false, placeholder: "Escreva sua mensagem" %>
+      <%= f.input :text, as: :text, label: false, placeholder: "Escreva sua mensagem" %>
+      <%= f.button :submit, "Enviar", class: "submit_button" %>
+    <% end %>
+  </div>

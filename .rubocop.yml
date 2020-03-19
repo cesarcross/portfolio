@@ -1,13 +1,15 @@
+require: rubocop-performance
+
 AllCops:
   Exclude:
-    - 'bin/**/*'
-    - 'db/**/*'
-    - 'config/**/*'
-    - 'node_modules/**/*'
-    - 'script/**/*'
-    - 'support/**/*'
-    - 'tmp/**/*'
-    - 'test/**/*'
+    - "bin/**/*"
+    - "db/**/*"
+    - "config/**/*"
+    - "node_modules/**/*"
+    - "script/**/*"
+    - "support/**/*"
+    - "tmp/**/*"
+    - "test/**/*"
 
 ConditionalAssignment:
   Enabled: false
