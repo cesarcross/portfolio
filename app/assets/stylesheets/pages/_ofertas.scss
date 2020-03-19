@@ -78,11 +78,13 @@ body {
   justify-content: space-around;
 }
 
-// .whats {
-//   position: fixed;
-//   bottom: 15px;
-//   right: 15px;
-// }
+.whats img {
+  // position: fixed;
+  // bottom: 15px;
+  // right: 15px;
+  width: 80px;
+  height: 80px;
+}
 
 // “Small Devices” (e.g. tablets) are targeted with @media (min-width: 768px) and (max-width: 991px) { ... }.
 
@@ -232,17 +234,22 @@ a.btn.btn-blue:active {
 }
 
 .anuncio {
+  color: #0f4c73;
   display: flex;
   flex-direction: column;
   margin: 30px auto;
   justify-content: center;
   width: 90%;
-  font-weight: bold;
 
-  h2,
+  h1 {
+    font-weight: bold;
+    margin: 20px auto;
+  }
+
   h4,
   h5,
   p {
     align-self: center;
+    margin: 20px auto;
   }
 }
