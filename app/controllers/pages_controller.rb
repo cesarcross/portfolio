@@ -9,7 +9,7 @@ class PagesController < ApplicationController
   def create
     @page = Page.new(page_params)
     if @page.deliver
-      flash[:notice] = 'Mensagem enviada com sucesso! Responderemos em breve.'
+      flash[:notice] = 'Mensagem enviada com sucesso!'
       redirect_to ofertas_path
     else
       render :ofertas
