@@ -91,7 +91,11 @@
   justify-content: center;
   align-items: center;
   height: 50px;
-  margin: 20px auto;
+  margin: 20px auto 0;
+
+  a {
+    text-decoration: none;
+  }
 
   .btn {
     // display: block;
